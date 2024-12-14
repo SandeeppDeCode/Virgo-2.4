@@ -1,0 +1,16 @@
+Subarrays, subsequences, and subsets are fundamental concepts in computer science and mathematics, particularly in the context of arrays. Here’s a concise overview of each:
+
+Subarray
+A subarray is a contiguous portion of an array. This means that the elements in a subarray must appear consecutively in the original array, preserving their order. For example, given the array [1, 2, 3], valid subarrays include [1], [1, 2], [2, 3], and [1, 2, 3]. The total number of non-empty subarrays for an array of size n is given by the formula n(n+1)/2
+
+Subsequence
+A subsequence is derived from an array by deleting some elements without changing the order of the remaining elements. Unlike subarrays, subsequences do not require elements to be contiguous. For instance, from the array [1, 2, 3], valid subsequences include [1], [2], [1, 3], and [1, 2, 3]. The number of subsequences for an array of size n is 2^n;
+
+Subset
+A subset refers to any combination of elements from an array (or set), which can include any number of elements from none (the empty set) to all elements. A subset does not require that the elements maintain their order or contiguity. For example, for the array [1, 2, 3], subsets include { }, {1}, {2}, {1, 2}, and so forth. Similar to subsequences, the number of subsets for an array of size n is also 2^n.
+
+In summary:
+- **Subarray**: Contiguous elements maintaining order.
+- **Subsequence**: Non-contiguous elements maintaining order.
+- **Subset**: Any combination of elements without regard to order or contiguity.
+

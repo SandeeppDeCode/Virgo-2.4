@@ -1,0 +1,15 @@
+Kadane's Algorithm efficiently finds the maximum sum of a contiguous subarray in O(n) time. It maintains a running sum (sum) and updates the maximum sum found (maxi). If sum becomes negative, it resets to zero, as a negative sum would not contribute positively to future subarrays. This approach ensures that the algorithm quickly identifies the optimal subarray sum.
+
+Dutch National Flag Algorithm
+
+The Dutch National Flag Algorithm, developed by Edsger Dijkstra, efficiently sorts an array with three distinct values (commonly 0s, 1s, and 2s) in linear time O(n) and constant space $$O(1)$$. 
+
+Key Steps:
+1. Use three pointers: `low`, `mid`, and `high`.
+2. Traverse the array:
+   - If the element is 0, swap with `low` and increment both `low` and `mid`.
+   - If it's 1, just increment `mid`.
+   - If it's 2, swap with `high` and decrement `high`.
+
+This method effectively partitions the array into three groups in a single pass.
+
