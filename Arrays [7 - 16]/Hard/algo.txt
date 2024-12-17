@@ -1,0 +1,17 @@
+Moore's Voting Algorithm - Quick Notes
+Purpose
+    Finds the majority element (appears > n/2 times) in an array.
+    Steps
+    Candidate Selection:
+    Initialize count = 0, el.
+    Iterate through the array:
+    If count == 0, set el to current element and count = 1.
+    If nums[i] == el, increment count.
+    Else, decrement count.
+
+Validation:
+    Count occurrences of el.
+    Return el if count > n/2; otherwise, return -1.
+Complexity
+Time: O(n)
+Space: O(1)
